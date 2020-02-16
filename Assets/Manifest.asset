@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0cc90c3a4b447e797c930c6fafa5e8, type: 3}
+  m_Name: Manifest
+  m_EditorClassIdentifier: 
+  downloadURL: http://127.0.0.1:7888/
+  activeVariants: []
+  bundles:
+  - lua/base_g
+  - lua/logic/states_g
+  - lua/logic/views_g
+  - lua/logic_g
+  - lua/mgrs_g
+  - lua_g
+  - manifest
+  - prefabs/loadingview
+  - prefabs/messagebox
+  - prefabs/uiroot
+  - sprites
+  dirs:
+  - Assets/Bytes/Lua/Base
+  - Assets/Bytes/Lua/Logic/States
+  - Assets/Bytes/Lua/Logic/Views
+  - Assets/Bytes/Lua/Logic
+  - Assets/Bytes/Lua/Mgrs
+  - Assets/Bytes/Lua
+  - Assets
+  - Assets/Framework/Prefabs
+  - Assets/Demo/Sprites
+  assets:
+  - bundle: 0
+    dir: 0
+    name: Action.lua.bytes
+  - bundle: 0
+    dir: 0
+    name: Class.lua.bytes
+  - bundle: 0
+    dir: 0
+    name: GameState.lua.bytes
+  - bundle: 0
+    dir: 0
+    name: View.lua.bytes
+  - bundle: 1
+    dir: 1
+    name: Initialize.lua.bytes
+  - bundle: 1
+    dir: 1
+    name: Loading.lua.bytes
+  - bundle: 2
+    dir: 2
+    name: LoadingView.lua.bytes
+  - bundle: 2
+    dir: 2
+    name: MessageBox.lua.bytes
+  - bundle: 2
+    dir: 2
+    name: UIRootView.lua.bytes
+  - bundle: 3
+    dir: 3
+    name: Res.lua.bytes
+  - bundle: 4
+    dir: 4
+    name: ActionManager.lua.bytes
+  - bundle: 4
+    dir: 4
+    name: ViewManager.lua.bytes
+  - bundle: 5
+    dir: 5
+    name: Define.lua.bytes
+  - bundle: 5
+    dir: 5
+    name: Game.lua.bytes
+  - bundle: 5
+    dir: 5
+    name: Init.lua.bytes
+  - bundle: 5
+    dir: 5
+    name: Main.lua.bytes
+  - bundle: 6
+    dir: 6
+    name: Manifest.asset
+  - bundle: 7
+    dir: 7
+    name: LoadingView.prefab
+  - bundle: 8
+    dir: 7
+    name: MessageBox.prefab
+  - bundle: 9
+    dir: 7
+    name: UIRoot.prefab
+  - bundle: 10
+    dir: 8
+    name: blackSquare.png
+  - bundle: 10
+    dir: 8
+    name: log2.png
+  - bundle: 10
+    dir: 8
+    name: log3.png
+  - bundle: 10
+    dir: 8
+    name: UnityLogo.png
